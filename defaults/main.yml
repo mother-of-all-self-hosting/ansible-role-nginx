@@ -18,7 +18,7 @@ nginx_config_path: "{{ nginx_base_path }}/config"
 nginx_data_path: "{{ nginx_base_path }}/data"
 
 # renovate: datasource=docker depName=nginxinc/nginx-unprivileged versioning=semver
-nginx_version: 1.31.6
+nginx_version: 1.31.7
 
 nginx_uid: ""
 nginx_gid: ""
