@@ -13,9 +13,6 @@
   with_items:
     - nginx_uid
     - nginx_gid
-    - nginx_hostname
-    - nginx_path_prefix
-    - nginx_container_network
 
 # We ensure it doesn't end with a slash, because we handle both (slash and no-slash).
 # Knowing that `nginx_path_prefix` does not end with a slash ensures we know how to set
